@@ -1,0 +1,131 @@
+*{
+    font-family: Rubik,sans-serif;
+}
+body{
+    /* background-color: linear-gradient(rgba(0, 0, 0, 0,1), (0,0,0,0.7)); */
+    background-color: #181818;
+    /* background-image: url("../img/bg.jpg"); */
+    background-size: cover;
+    background-position: bottom;
+}
+.nav-item{
+    padding: 0.15rem;
+    margin-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 92%;
+    margin-right: 10px;
+    color: white;
+    
+  }
+  .navbar{
+    background-color:  #101010;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-link{
+   color:white;
+   transition: ease 0.5s;
+  }
+  .actived{
+    color: #70e000;
+    font-size: 1.005rem;
+    font-weight: bold;
+  }
+  .nav-link:hover{
+    color: #70e000;
+    font-size: 1.005rem;
+    font-weight: bold;
+  }
+
+  .darkcontainer{
+    margin-top: 2rem;
+    background-color: #101010;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .lightcontainer{
+    margin-top: 2rem;
+    background-color: #252525;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.siyahyesil{
+  margin-top: 0.7rem;
+  color: #70e000;
+  transition: ease 0.5s;
+}
+.siyahyesil:hover{
+  font-weight: bold;
+  letter-spacing: 5px;
+  
+}
+.yesilsiyah{
+  
+  margin-top: 0.7rem;
+  color: #101010;
+  transition: ease 0.5s;
+}
+.yesilsiyah:hover{
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.hobi{
+  background-color: #101010;
+  border: 1px solid #70e000;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-title{
+  color: #70e000;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-text{
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+  /* .container {
+    margin-top: 50px;
+  }
+  
+  .about {
+    background-color: #6d6967;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2 {
+    color: #302929;
+  }
+  
+  .about p {
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 0.9rem;
+  }
+
+  .img-fluid{
+    width: 500px;
+    height: 500px;
+    border-radius:10px;
+    margin-top: 20px;
+  } */

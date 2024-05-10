@@ -1,0 +1,28 @@
+/* FILEPATH: /c:/Users/Müjde Özgüner/Desktop/Gökhan Özgüner WEB PROJECT/css/main.css */
+
+.buyuk-metin{
+    font-size: 30px;
+    
+}
+
+/* h6{
+    font-size: 5rem;
+    -webkit-text-stroke: 3px #70e000;
+    color:transparent;
+    position: relative;
+
+}
+h6::before{
+ content: " M E R H A B A ";
+ position: absolute;
+ width: 0%;
+ height: 100%;
+ overflow: hidden;
+ color:#70e000;
+ transition: ease 1s;
+ 
+}
+h6:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px #3f7c02);
+} */
