@@ -14,30 +14,80 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- İKONLAR -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    
 </head>
 <body>
     <!-- NAVİGASYON BAR -->
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-        <a class="navbar-brand" style="padding-left: 1rem; background-color: orangered; border-radius: 2.5rem; padding-right: 1rem; " href=index.html>GÖKHAN ÖZGÜNER</a>
-          <div class="container-fluid d-flex justify-content-end">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Hakkımda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link actived" href="ozgecmis.html">Özgeçmiş</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sehrim.html">Şehrim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
-              </li>
-            </ul>
+        <a class="navbar-brand" style="padding-left: 1rem; padding-right: 1rem; " href="index.html">GÖKHAN ÖZGÜNER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Hakkımda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link actived" href="ozgecmis.html">Özgeçmiş</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sehrim.html">Şehrim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="ozgecmis">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="container darkcontainer left" id="sol" style="margin-top: 7rem; display:flex; flex-direction: column; align-items: center;">
+                <div class="fotograf">
+                  <img class="img-fluid" id="cvfoto" src="img/me.jpg" alt="..">
+                </div>
+                <div class="cv">
+                  <h2 class="display-6" style="font-size: 1.5rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center; font-weight: bold;">GÖKHAN ÖZGÜNER</h2>
+                  <h3 class="display-6" style="font-size: 1rem; text-align: center;"> BİLGİSAYAR MÜHENDİSLİĞİ ÖĞRENCİSİ</h3>
+                  <!-- SEPERATOR -->
+                  <hr class="seperator">
+                  <h6 class="ozgecmis-baslik">İLETİŞİM</h6>
+
+                  <p><i class="fa fa-phone-square ozgecmis-ikon"  aria-hidden="true"></i>555 010 01 64</p>
+                  <p><i class="fa fa-envelope-square ozgecmis-ikon"  aria-hidden="true"></i>gokhanozguner.42@gmail.com</p>
+                  <p><i class="fas fa-globe ozgecmis-ikon" aria-hidden="true"></i>www.gokmuj.com</p>
+
+                  <h6 class="ozgecmis-baslik">ADRES</h6>
+                  <p><i class="fa fa-map-marker ozgecmis-ikon" aria-hidden="true"></i>Sakarya, Türkiye</p>
+                  <ul style="margin-top: -0.5rem;">
+                      <li>Ayşe Hümeyra Ökten Erkek Öğrenci Yurdu</li>
+                  </ul>
+                  <h6 class="ozgecmis-baslik">EĞİTİM</h6>
+                  <p><i class="fas fa-graduation-cap ozgecmis-ikon" aria-hidden="true"></i>Sakarya Üniversitesi <br>ㅤㅤㅤ2023-2027</p>
+                  <p><i class="fas fa-graduation-cap ozgecmis-ikon" aria-hidden="true"></i>Ereğli Fen Lisesi <br>ㅤㅤㅤ2018-2022</p>
+                  <p><i class="fas fa-graduation-cap ozgecmis-ikon" aria-hidden="true"></i>Dumlupınar Ortaokulu <br>ㅤㅤㅤ2014-2018</p>
+                  <h6 class="ozgecmis-baslik">DİL</h6>
+                  <p><i class="fas fa-language ozgecmis-ikon" aria-hidden="true"></i>İngilizce</p>
+                  <p><i class="fas fa-language ozgecmis-ikon" aria-hidden="true"></i>Türkçe</p>
+                 
+              </div>
+              
+              
+              </div>
+                
+            </div>
+            <div class="col-md-8">
+              <div class="container darkcontainer" id="orta" style="margin-top: 7rem; height: 100rem;;"></div>
+            </div>
+            
+            </div>
           </div>
-          
-        </nav>
+        </div>
+      </section>
+      
 </body>
 </html>
