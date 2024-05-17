@@ -11,6 +11,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
         <!-- CSS -->
         <link rel="stylesheet" href="css/takimim.css">
         <link rel="stylesheet" href="css/main.css">
@@ -53,7 +57,7 @@
                 <div class="col-md-4">
                   <div class="container darkcontainer left" id="sol" style="margin-top: 7rem; display:flex; flex-direction: column; align-items: center;">
                     <div class="fotograf">
-                      <img class="img-fluid" id="cvfoto" src="img/fenerbahce/logo.png" alt="..">
+                      <img class="img-fluid" id="fg-logo" src="img/fenerbahce/logo.png" alt="..">
                     </div>
                     <div id="fb-sidebar">
                       <h2 class="display-6" style="font-size: 1.5rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center; font-weight: bold; color: dodgerblue;">FENERBAHÇE</h2>
@@ -84,7 +88,7 @@
 
                       <h6 class="takim-baslik">MASKOT</h6>
                       <p class="takim-madde"><i class="fas fa-dove takim-ikon"  aria-hidden="true"></i>Kanarya</p>
-                      <p class="takim-madde"><i class="fas fa-cow takim-ikon"  aria-hidden="true"></i>Boğa</p>
+                      <p class="takim-madde"><i class="fas fa-square takim-ikon"  aria-hidden="true"></i>Boğa</p>
                     
                     </div>
                     
@@ -125,28 +129,288 @@
 
           <section id="fenerbahce-icerik">
             <div class="container darkcontainer" style="margin-top: -3.5rem;">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="display-6 takimB-baslik">M A R Ş L A R</h1>
+                <div class="content">
+                    <h1 class="display-6 takimB-baslik">M A R Ş L A R</h1>
                         <p class="profil-yazi lead">Şanlı Fenerbahçemisin birbirinden güzel marşları vardır, herkesin favorisi farklı olsa da benim favorim <span style="color: gold;">Fenerbahçeli Olmak Ne Güzel Bir Şey</span> marşıdır.</p>
-                    </div>
+                        <p class="profil-yazi lead">Marşlardan bazılarını aşağıya ekledim, her birini dinleyerek favori marşınıza karar verebilirsiniz!</p>
                 </div>
                 <div class="row">
+                    
+                    
                     <div class="col-md-6">
+                      <div class="card marslar">
+                        <!-- Kart 1 içeriği -->
+                        <div class="card-body">
+                          <h5 class="card-title">FENERBAHÇELİ OLMAK NE GÜZEL BİR ŞEY</h5>
+                          <p class="card-text lead"><i class="fa fa-pencil-alt takim-ikon"></i> Marş sözleri <span>Ercüneyt ÖZDEMİR </span>tarafından yazılmıştır.</p>
+                          <p class="card-text lead"><i class="fa fa-music takim-ikon"></i> Beste ve müziğin kime ait olduğu bilinmemektedir.</p>
+                          <p class="card-text lead"><i class="fas fa-star takim-ikon"></i> Bu marş benim favori marşımdır.
+                          
+                        </div>
+                        <video controls>
+                            <source src="video/fenerbahce/neguzel.mp4" class = "video-css"  type="video/mp4">
+                            Tarayıcınız video etiketini desteklemiyor.
+                        </video>
+                        <!-- ŞARKI SÖZLERİ BUTONU -->
+                        <button type="button" class="btn gold-btn" data-bs-toggle="modal" data-bs-target="#mars1">
+                            MARŞ SÖZLERİNİ GÖRÜNTÜLE
+                        </button>
                         
+                        <!-- Modal -->
+                        <div class="modal fade" id="mars1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                            aria-labelledby="mars1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="mars1">FENERBAHÇELİ OLMAK NE GÜZEL BİR ŞEY MARŞI SÖZLERİ</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Başım yukarıda, gücüm yerinde <br>
+                                            İsterim ki bilsin herkes, ben bir fenerbahçeliyim! <br>
+                                            Gözüm dışarıda, dev kupalarda <br>
+                                            Kalkışmasın kimse seni kalbimden söküp atmaya <br>
+                                            <br>
+                                            
+                                            Taraftarım ben, dedikodu bilmem <br>
+                                            Tarih yazar kim haklı, kim çamur attı <br>
+                                            Kimseye kanmam, yalancı sevmem <br>
+                                            Annemin ak sütü kadar helâldir kupalar <br>
+                                            <br>
+                                            
+                                            Seninle sonsuza dek sırt sırta veririm hey <br>
+                                            Yan yanayız doğu - batı, kuzey - güney <br>
+                                            Lefterin’le Aykut’unla Alex’inle gürle hey <br>
+                                            Fenerbahçeli olmak ne güzel bir şey! <br>
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn gold-btn btn-footer" data-bs-dismiss="modal">KAPAT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-md-6">
 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
 
-                    </div>
-                    <div class="col-md-6">
 
+                    <div class="col-md-6">
+                      <div class="card marslar">
+                        <!-- Kart 2 içeriği -->
+                        <div class="card-body">
+                          <h5 class="card-title">100. YIL MARŞI</h5><br>
+                          <p class="card-text lead"><i class="fa fa-pencil-alt takim-ikon"></i> Sözleri <i><span>Kıraç</span></i> tarafından yazılmıştır.</p>
+                          <p class="card-text lead"><i class="fa fa-music takim-ikon"></i> Müziği <i><span>Kıraç</span></i> tarafından bestelenmiştir.</p>
+                          <p class="card-text lead"><i class="fa fa-microphone takim-ikon"></i> Seslendirmesi <i><span>Kıraç</span></i> tarafından yapılmıştır.</p>
+                        </div>
+                        <video controls>
+                            <source src="video/fenerbahce/100yil.mp4" class = "video-css"  class="video-css" type="video/mp4">
+                            Tarayıcınız video etiketini desteklemiyor.
+                        </video>
+                        <!-- ŞARKI SÖZLERİ BUTONU -->
+                        <button type="button" class="btn gold-btn" data-bs-toggle="modal" data-bs-target="#mars2">
+                            MARŞ SÖZLERİNİ GÖRÜNTÜLE
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="mars2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                            aria-labelledby="mars" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="mars2">100. YIL MARŞI SÖZLERİ</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Sen bir nefes aldığım her an<br>
+                                            Sen bir özlem içimde hep buram buram<br>
+                                            Kimse anlamaz bende aşkını<br>
+                                            Sen, bir çocuk gülen yerinde durmayan<br>
+                                            <br>
+                                            Aşkınla coşkunla sen çok yaşa<br>
+                                            Yükseliyor bayrağın arşa<br>
+                                            Aşkınla coşkunla sen çok yaşa<br>
+                                            Yazdık büyük ismini dağa taşa<br>
+                                            Yüzyıl önce doğdu şanlı efsane<br>
+                                            Yüzyaşında mutlu ol Fenerbahçe<br>
+                                            <br>
+                                            Kalbim senin, seninle çarpıyor<br>
+                                            Bir tek seninle gülüp senle ağlıyor<br>
+                                            Sen gönlümün eşsiz aşkısın<br>
+                                            Her yerde her zaman yanıp parıldıyor<br>
+                                            <br>
+                                            Aşkınla coşkunla sen çok yaşa<br>
+                                            Yükseliyor bayrağın arşa<br>
+                                            Aşkınla coşkunla sen çok yaşa<br>
+                                            Yazdık büyük ismini dağa taşa<br>
+                                            Yüzyıl önce doğdu şanlı efsane<br>
+                                            Yüzyaşında mutlu ol Fenerbahçe<br>
+
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn gold-btn btn-footer" data-bs-dismiss="modal">KAPAT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+
+
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card marslar">
+                        <!-- Kart 3 içeriği -->
+                        <div class="card-body">
+                          <h5 class="card-title">YAŞA FENERBAHÇE</h5>
+                          <p class="card-text lead"><i class="fa fa-pencil-alt takim-ikon"></i> Sözleri Fenerbahçe'nin eski kalecisi <i><span>Fecri Ebcioğlu</span></i> tarafından yazılmıştır.</p>
+                          <p class="card-text lead"><i class="fa fa-music takim-ikon"></i> Müziği <i><span>Eviva España</span></i> şarkısından uyarlanmıştır.</p>
+                          <p class="card-text lead"><i class="fa fa-microphone takim-ikon"></i> Seslendirmesi <i><span>Nesrin Sipahi</span></i> tarafından yapılmıştır.</p>
+                        </div>
+                        <video controls>
+                            <source src="video/fenerbahce/yasafenerbahce.mp4" class = "video-css"  type="video/mp4">
+                            Tarayıcınız video etiketini desteklemiyor.
+                        </video>
+                        <!-- ŞARKI SÖZLERİ BUTONU -->
+                        <button type="button" class="btn gold-btn" data-bs-toggle="modal" data-bs-target="#mars3">
+                            MARŞ SÖZLERİNİ GÖRÜNTÜLE
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="mars3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                            aria-labelledby="mars3" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="mars3">YAŞA FENERBAHÇE MARŞI SÖZLERİ</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Kalpleri fetheden renkler <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Türk'ün kalbi sende atar <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Mazinde bir tarih yatar <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Ne mutlu seni sevene <br>
+                                            Yaşa Fenerbahçe <br>
+                                            <br>
+                                            Cihatlar, Lefterler, Canlar, Fikretler <br>
+                                            Hala sevilen birer abidedirler <br>
+                                            Hiçbir kulüpte olmayan bu dostluk <br>
+                                            Yıllar yılı hep şampiyon olduk <br>
+                                            <br>
+                                            Kalpleri fetheden renkler <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Türk'ün kalbi sende atar <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Mazinde bir tarih yatar <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Ne mutlu seni sevene <br>
+                                            Yaşa Fenerbahçe <br>
+                                            <br>
+                                        
+                                            Maç yaparken sahada <br>
+                                            Sarı kanaryalar <br>
+                                            Rakip takıma krampon toplatırlar <br>
+                                            Sıkı dur karşı defans Fener geliyor <br>
+                                            Şut ve gol ağları deliyor <br>
+                                            <br>
+                                        
+                                            Kalpleri fetheden renkler <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Türk'ün kalbi sende atar <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Mazinde bir tarih yatar <br>
+                                            Yaşa Fenerbahçe <br>
+                                            Ne mutlu seni sevene <br>
+                                            Yaşa Fener, Fener, Fenerbahçe <br>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn gold-btn btn-footer" data-bs-dismiss="modal">KAPAT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                      <div class="card marslar">
+                        <!-- Kart 4 içeriği -->
+                        <div class="card-body">
+                          <h5 class="card-title">EFSANE FENERBAHÇE</h5>
+                          <p class="card-text lead"><i class="fa fa-pencil-alt takim-ikon"></i> Sözleri <i><span>Edis İlhan</span></i> tarafından yazılmıştır.</p>
+                          <p class="card-text lead"><i class="fa fa-music takim-ikon"></i> Müziği <i><span>Edis İlhan</span></i> tarafından bestelenmiştir.</p>
+                          <p class="card-text lead"><i class="fa fa-microphone takim-ikon"></i> Seslendirmesi <i><span>Edis İlhan</span></i> tarafından yapılmıştır.</p>
+                        </div>
+                        <video controls>
+                            <source src="video/fenerbahce/efsane.mp4" class = "video-css"  type="video/mp4">
+                            Tarayıcınız video etiketini desteklemiyor.
+                        </video>
+                        <!-- ŞARKI SÖZLERİ BUTONU -->
+                        <button type="button" class="btn gold-btn" data-bs-toggle="modal" data-bs-target="#mars4">
+                            MARŞ SÖZLERİNİ GÖRÜNTÜLE
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="mars4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                            aria-labelledby="mars3" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="mars4">EFSANE FENERBAHÇE MARŞI SÖZLERİ</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Yüz değil bin yıl geçse de <br>
+                                            Taraftarın hep seninle <br>
+                                            Sürecek bu aşkımız <br>
+                                            Sonsuza dek Fenerbahçe <br>
+                                            <br>
+                                            
+                                            Yağmur, çamur, kar demeden <br>
+                                            İyi günde, kötü günde <br>
+                                            Ölene dek yanındayız <br>
+                                            Şampiyonum Fenerbahçe <br>
+                                            <br>
+                                            
+                                            Sen asırlık bir çınarsın <br>
+                                            Efsanesin, yıkılmazsın <br>
+                                            Sen canımsın, kanaryamsın <br>
+                                            Her şeyimsin Fenerbahçe <br>
+                                            <br>
+                                            
+                                            Yağmur, çamur, kar demeden <br>
+                                            İyi günde, kötü günde <br>
+                                            Ölene dek yanındayız <br>
+                                            Şampiyonum Fenerbahçe <br>
+
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn gold-btn btn-footer" data-bs-dismiss="modal">KAPAT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
             </div>
           </section>
     </main>

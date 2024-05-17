@@ -1,0 +1,267 @@
+*{
+    transition: ease 0.5s;
+    font-family: Rubik,sans-serif;
+    
+}
+*:hover{
+  transition: ease 0.5s;
+}
+
+* a{
+    text-decoration: none;
+    color: white;
+}
+
+* a:hover{
+    text-decoration: none;
+    color: gold;
+
+}
+
+body{
+    background-color: #002d72;
+    background-color: nav;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.navbar{
+    font-family: Rubik,sans-serif;
+    background-color: rgb(1, 1, 77)
+  }
+  
+  .navbar-brand{
+      font-size: 1.5rem;
+      
+      color: white;
+      transition: ease 0.5s;
+  }
+  .navbar-brand:hover{
+    font-size: 1.5rem;
+    
+    color: gold;
+    transition: ease 0.5s;
+  }
+  .nav-item{
+      padding: 0.15rem;
+      margin-right: 1rem;
+  }
+  
+  .logo {
+      display: flex;
+      justify-content: center;
+      height: 92%;
+      margin-right: 10px;
+      color: white;
+      
+    }
+  
+  
+    .container-fluid {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .nav-link{
+     color:white;
+     transition: ease 0.5s;
+    }
+    .actived{
+      color: gold;
+      font-size: 1.005rem;
+      font-weight: bold;
+    }
+    .nav-link:hover{
+      color: gold;
+      font-size: 1.005rem;
+      font-weight: bold;
+    }
+  
+    .darkcontainer{
+      margin-top: 2rem;
+      background-color: rgb(1, 1, 77);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .lightcontainer{
+      margin-top: 2rem;
+      background-color: #151515;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(10, 10, 10, 0.492);
+    }
+
+  
+  
+.seperator{
+    border-top: 4px solid rgb(253, 248, 248);
+    border-radius: 100%;
+    width: 50%;
+    margin-top: 0rem;
+    opacity: 10%;
+    position: absolute;
+    transition: ease 0.5s;
+}
+
+#takim .left .fotograf{
+    width: 200px;
+    height: 200px;
+    border: solid 0.5rem gold;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+  }
+
+
+
+  .seperator{
+    border-top: 1px groove gold;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .seperator-profil{
+    border-top: 3px groove white;
+    width: 100%;
+    opacity: 5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .takim-baslik{
+    margin-top: 5rem; 
+    margin-inline-start: 1rem;
+    margin-bottom: 0.75rem;
+    color: gold;
+  }
+
+  .takim-madde{
+    margin-inline-start: 1rem;
+    color: white;}
+
+  .takim-ikon{
+    font-size: 14px; 
+    margin-right: 0.5rem;
+    color: dodgerblue;
+  }
+
+
+  .takimB-baslik{
+    margin-top: 1rem; 
+    margin-inline-start: 1rem;
+    margin-bottom: 0.75rem;
+    color: gold;
+  }
+  .takimB-baslik:hover{
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+
+  
+  .profil-yazi{
+    margin-inline-start: 1rem;
+    color: white;
+    
+  }
+
+  .marslar{
+    background-color: rgb(3, 3, 47);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 5px rgba(30, 144, 255,0.7);
+  }
+  
+  .card-title{
+    color: gold;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+  }
+
+  .card-body span{
+    color: gold
+  }
+
+  .card-text{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .btn{
+    border-radius: 0.75rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+
+    
+  }
+
+  .gold-btn{
+    background-color:#101010;
+    color: gold;
+    border: solid 0.01rem gold;
+    transition: ease 0.5s;
+  }
+
+  .gold-btn:hover{
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    border: solid 0.01rem #101010;
+    transition: ease 1.0s;
+  }
+
+  .modal-header{
+    background-color: gold;
+  }
+  .modal-title{
+    color: #101010;
+  }
+  .modal-body{
+    background-color: rgb(1, 1, 77);
+    color: white;
+  }
+  .modal-footer{
+    background-color: rgb(1, 1, 77);
+  }
+
+  .modal-body p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .btn-footer{
+    width: 25%;
+    margin-top: 1rem;
+  }
+
+  .modal-footer{
+    justify-content: end;
+    color: red;
+    background-color: rgb(3, 3, 47);
+  }
+
+  .video-css{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+#fenerbahce-icerik video{
+  margin-bottom: 0.75rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 0.5rem;
+  
+}
