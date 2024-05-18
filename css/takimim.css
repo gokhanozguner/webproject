@@ -107,6 +107,14 @@ body{
     transition: ease 0.5s;
 }
 
+#sol,#orta {
+  display: flex;
+}
+
+#sol, #orta, .container {
+  height: 92%;
+}
+
 #takim .left .fotograf{
     width: 200px;
     height: 200px;
@@ -166,7 +174,7 @@ body{
   }
 
   
-  .profil-yazi{
+  .takim-yazi{
     margin-inline-start: 1rem;
     color: white;
     

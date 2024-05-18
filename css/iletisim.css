@@ -1,0 +1,45 @@
+*{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+
+body{
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.form-elemanlar{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: Rubik  ;
+}
+
+.form-control{
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+}
+
+
+.darkcontainer{
+    opacity: 95%;
+}
+.baslik{
+    font-size: 2rem;
+    color: gold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.btn-primary{
+    background-color: gold;
+    border: 1px solid #101010;
+    border-radius: 2rem;
+    color: black;
+    font-weight: 500;
+
+}

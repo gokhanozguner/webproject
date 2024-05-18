@@ -1,0 +1,164 @@
+*{
+    transition: ease 0.5s;
+    font-family: Rubik,sans-serif;
+    
+}
+*:hover{
+  transition: ease 0.5s;
+}
+body{
+    /* background-color: linear-gradient(rgba(0, 0, 0, 0,1), (0,0,0,0.7)); */
+    background-color: #181818;
+    /* background-image: url("../img/bg.jpg"); */
+    background-size: cover;
+    background-position: bottom;
+}
+.navbar{
+  font-family: Rubik,sans-serif;
+  background-color: #101010;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    
+    color: white;
+    transition: ease 0.5s;
+}
+.navbar-brand:hover{
+  font-size: 1.5rem;
+  
+  color: orangered;
+  transition: ease 0.5s;
+}
+.nav-item{
+    padding: 0.15rem;
+    margin-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 92%;
+    margin-right: 10px;
+    color: white;
+    
+  }
+
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+  .seperator{
+    border-top: 4px solid rgb(253, 248, 248);
+    border-radius: 100%;
+    width: 50%;
+    margin-top: 0rem;
+    margin-left: 6.25rem;
+    opacity: 10%;
+    position: absolute;
+    /* bottom: 5rem;
+    top: 1rem;
+    left: 9rem; */
+  }
+
+  #sehir-container .container.darkcontainer{
+    box-shadow: 0px 0px 50px rgba(255, 69, 0, 0.3);
+  }
+
+  #sehir-container .img-fluid{
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+  }
+
+  .info-ikon{
+    font-size: 1.25rem;
+    color: orangered;
+    margin-right: 1rem;
+  }
+  #sehrim #sehir-container p{
+    font-size: 1rem;
+    color: #303030;
+    letter-spacing: 2px;
+    margin-inline-start: 0rem;
+  }
+
+  .baslik{
+    color: orangered;
+    margin-top: 1.25rem;
+  }
+
+  .font-orta{
+    font-size: 1.2rem;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 400px; /* Slider yüksekliği burada belirtiliyor */
+    object-fit: cover; /* Resimlerin boyutu slider'ın boyutuna uyacak şekilde orantılı olarak kırpılıyor */
+
+}
+
+.info{
+    background-color: #101010;
+    border: 1px solid orangered;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-title{
+    color: orangered;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    font-family: 'Rubik', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .card-text{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 100%
+  }
+
+
+
+  #kartlar span{
+    
+    font-size: 1.5rem;
+    color: orangered;
+  }
+
+
+
+.c-img{
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.custom-indicators{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.custom-indicators .active {
+  background-color: orangered; /* Aktif indikatör rengi */
+}
+
+.custom-indicators li {
+  background-color: black; /* Pasif indikatör rengi */
+}

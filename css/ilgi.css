@@ -1,0 +1,143 @@
+* {
+    transition: ease 0.5s;
+
+}
+
+*:hover {
+    transition: ease 0.5s;
+}
+
+body {
+    /* background-color: linear-gradient(rgba(0, 0, 0, 0,1), (0,0,0,0.7)); */
+    background-color: #181818;
+    /* background-image: url("../img/bg.jpg"); */
+}
+
+.navbar {
+    font-family: Rubik, sans-serif;
+    background-color: #101010;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+
+    color: white;
+    transition: ease 0.5s;
+}
+
+.navbar-brand:hover {
+    font-size: 1.5rem;
+
+    color: gold;
+    transition: ease 0.5s;
+}
+
+.nav-item {
+    padding: 0.15rem;
+    margin-right: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 92%;
+    margin-right: 10px;
+    color: white;
+
+}
+
+.baslik {
+    color: gold;
+    font-size: 2rem;
+    ;
+    font-family: Montserrat;
+    margin-left: 1rem;
+}
+
+.icerik {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Rubik, sans-serif;
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: white;
+    transition: ease 0.5s;
+}
+
+.actived {
+    color: gold;
+    font-size: 1.005rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: gold;
+    font-size: 1.005rem;
+    font-weight: bold;
+}
+
+.gold {
+    color: gold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.margin05 {
+    margin-left: 0.5rem;
+}
+
+.golge {
+    box-shadow: 0 0 10px rgb(255, 251, 0);
+
+}
+
+* li {
+    list-style-type: none;
+}
+
+.ikon {
+    margin-right: 0.25rem;
+    color: gold;
+}
+
+.seperator {
+    border: 1px solid gold;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: 100%;
+
+}
+
+.col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin-bottom: 0.75rem;
+}
+
+
+.darkcontainer {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #101010;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 50px rgb(255, 251, 0, 0.1);
+}
+
+.lightcontainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #131313;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
