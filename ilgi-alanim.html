@@ -23,8 +23,11 @@
 
     <!-- İKONLAR -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+
 </head>
 <body>
+    
     <main>
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
             <a class="navbar-brand" style="padding-left: 2rem; padding-right: 1rem; " href="index.html">GÖKHAN ÖZGÜNER</a>
@@ -51,6 +54,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="iletisim.html">İletişim</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Giriş</a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -61,7 +67,7 @@
                 <h1 class="text-center display-1 gold">İLGİ ALANLARIM</h1>
                 <div class="row">
                     <div class="col-md-6 d-flex">
-                        <div class="container darkcontainer" id="ilgi1">
+                        <div class="container darkcontainer golge" id="ilgi1">
                             <h2 class="baslik">MÜZİK</h2> <hr class="seperator">
                             <p class="icerik lead">Aslında pek fazla bir müzik kültürüm yok, öyle ahım şahım müzik tutkunu değilim yani. Çoğu şarkıya kulak aşinalığım vardır şarkıyı tanırım ama ismini bilmem mesela. Ama yine de müzik dinlemeyi çok seviyorum, uyumadan önce; yürüyüş yaparken vb. anlarda bir yandan müziğin eşlik etmesi bana çok keyif veriyor. <br><br>Sevdiğim bazı müzik grupları:</p>
                             <ul class="icerik lead">
@@ -74,22 +80,22 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">
-                        <div class="container darkcontainer" id="ilgi2">
+                        <div class="container darkcontainer golge" id="ilgi2">
                             <h2 class="baslik">FUTBOL</h2> <hr class="seperator">
-                            <p class="icerik lead">Çoğu insan gibi benim de ilgi alanlarımdan birisi futbol. Kimine göre yuvarlak bir topun peşinden koşan 22 tane adam, kimine göre bir yaşam felsefesi. Ben iki tarafa da uzağım, ortalarda bir yerlerde takılıyorum. Desteklediğim bir takım var fakat ağır fanatik değilim. Aslında ben futboldan ziyade bir oyuncudan keyif alıyorum, o oyuncu beni çok büyülüyor, yaptıkları bana inanılmaz geliyor, onu izlemeyi çok seviyorum. O oyuncu kim mi? <br><br>Tabii ki de <span class="gold bold margin05" style="letter-spacing: 3px;"><a href="#messi">LIONEL MESSI</a> LIONEL MESSI.</span></p>
+                            <p class="icerik lead">Çoğu insan gibi benim de ilgi alanlarımdan birisi futbol. Kimine göre yuvarlak bir topun peşinden koşan 22 tane adam, kimine göre bir yaşam felsefesi. Ben iki tarafa da uzağım, ortalarda bir yerlerde takılıyorum. Desteklediğim bir takım var fakat ağır fanatik değilim. Aslında ben futboldan ziyade bir oyuncudan keyif alıyorum, o oyuncu beni çok büyülüyor, yaptıkları bana inanılmaz geliyor, onu izlemeyi çok seviyorum. O oyuncu kim mi? <br><br>Tabii ki de <span class="gold bold margin05" style="letter-spacing: 3px;">LIONEL MESSI.</span></p>
                             
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 d-flex">
-                        <div class="container darkcontainer" id="ilgi3">
+                        <div class="container darkcontainer golge" id="ilgi3">
                             <h2 class="baslik">YAZILIM</h2><hr class="seperator">
                             <p class="icerik lead">Yazılım ile uğraşacağımı hiç düşünmezdim, hatta küçükken hep inşaat mühendisi olacağımı söylüyormuşum. Yazılım ile tanışmam şöyle oldu, oynadığım bir bilgisayar oyununda bir kişi oyunda ilerlemenizi kolaylaştıran bir hile yazılımı yapmıştı. Daha sonrasında daha da ileri giderek hileleri engelleyen bir koruma sistemi geliştirdi. Daha sonra bu koruma sistemini sunucu sahiplerine satışa sundu, fakat kimse onun koruma sistemini almadı. Hâl böyle olunca kendi koruma sistemi hariç diğer tüm sistemlerde çalışan ve oyunu alt-üst eden hileler yazdı. Kaba tabir ile tüm sunucu sahiplerini kendi koruma sistemini satın almaya zorlamıştı. Bu olay beni çok etkilemişti, gözüme çok havalı gelmişti. Bu şekilde yazılıma merak sardım, yeri geldi ben de oyunlara hileler kodladım fakat artık ilgi alanım o yönde değil.</p>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">
-                        <div class="container darkcontainer" id="ilgi4">
+                        <div class="container darkcontainer golge" id="ilgi4">
                             <h2 class="baslik">BİLGİSAYAR OYUNLARI<br></h2> <hr class="seperator">
                             <p class="icerik lead">Her ne kadar eskisi kadar sık oynamasam da, bilgisayar oyunlarını hâlâ çok seviyorum. Bence gündelik hayattan biraz da olsa uzaklaşmak için, stres atmak için çok etkili bir çözüm. Ama şimdiden uyarayım yeri geliyor bazen stres atayım derken daha da stres olabiliyorsunuz. Eh, o da pastadaki süs olsun &#x1F60A;</p>
                             <p class="icerik lead">En sevdiğim bilgisayar oyunları:</p>
@@ -124,12 +130,24 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-
+                        <div class="container darkcontainer">
+                            <div id="playlist"></div>
+                            <script src="js/ilgiAPI.js"></script>
+                        </div>
                     </div>
                 </div>
                 <div class="row"></div>
             </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid darkcontainer footer text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="lead">Gökhan Özgüner • Tüm Hakları Saklıdır  • Copyright 2024 ©</p>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>

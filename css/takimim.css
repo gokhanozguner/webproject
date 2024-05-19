@@ -266,10 +266,17 @@ body{
     flex-wrap: wrap;
   }
 
-#fenerbahce-icerik video{
+#fenerbahce-icerik audio{
+  align-items: center;
   margin-bottom: 0.75rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  margin-left: 1.25rem;
   border-radius: 0.5rem;
-  
+  width: 90%;
+}
+
+.c-img{
+  height: 425px;
+  width: 500px;
+  padding: 10px;
+  margin-left: 1rem;
 }

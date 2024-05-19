@@ -1,0 +1,49 @@
+body{
+    font-family: Montserrat,sans-serif;
+    background-color: gold;
+}
+
+.form-elemanlar{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: Rubik  ;
+}
+
+.form-control{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.baslik{
+    font-size: 2rem;
+    color: gold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.btn-primary{
+    background-color: #131313;
+    border: 1px solid gold;
+    border-radius: 0.5rem;
+    color: gold;
+    font-weight: 500;
+
+}
+
+.icerik {
+    color: black;
+    font-size: 1.25rem;
+    font-family: Rubik, sans-serif;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.alert-danger p{
+    color: red;
+    font-weight: bold;
+  }
+
+.alert-primary p{
+    color: black;
+    font-weight: bolder;
+}

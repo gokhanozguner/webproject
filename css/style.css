@@ -19,7 +19,7 @@ body{
 .navbar-brand:hover{
   font-size: 1.5rem;
   
-  color: orangered;
+  color: gold;
   transition: ease 0.5s;
 }
 .nav-item{
@@ -47,7 +47,7 @@ body{
 
 .siyahyesil{
   margin-top: 0.7rem;
-  color: orangered;
+  color: gold;
   transition: ease 0.5s;
 }
 .siyahyesil:hover{
@@ -68,13 +68,13 @@ body{
 
 .hobi{
   background-color: #101010;
-  border: 1px solid orangered;
+  border: 1px solid gold;
   border-radius: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .card-title{
-  color: orangered;
+  color: gold;
   font-size: 1.5rem;
   letter-spacing: 0px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

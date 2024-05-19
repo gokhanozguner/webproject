@@ -1,0 +1,35 @@
+
+body{
+    font-family: Montserrat,sans-serif;
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.form-elemanlar{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: Rubik  ;
+}
+
+.form-control{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.baslik{
+    font-size: 2rem;
+    color: gold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.icerik {
+    color: lime;
+    font-size: 1.25rem;
+    font-family: Rubik, sans-serif;
+    margin-bottom: 0rem;
+}

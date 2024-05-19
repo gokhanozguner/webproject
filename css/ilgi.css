@@ -129,7 +129,6 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
-    box-shadow: 0 0 50px rgb(255, 251, 0, 0.1);
 }
 
 .lightcontainer {
@@ -140,4 +139,37 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.darkcontainer.golge{
+    box-shadow: 0 0 50px rgb(255, 251, 0, 0.1);
+}
+
+#playlist {
+    display: flex;
+    flex-wrap: wrap; /* Satır dolduğunda yeni satıra geçiyoruz */
+    gap: 20px; /* Videolar arasındaki boşluğu ayarlıyoruz */
+}
+#playlist div {
+    flex: 1 1 calc(25% - 20px); /* sütun düzeni */
+    box-sizing: border-box;
+    text-align: center;
+}
+#playlist img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#playlist h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+#playlist a {
+    text-decoration: none;
+    text-align: center;
+    color: gold;
+    font-size: 1rem;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    margin-left: 0rem;
+
 }

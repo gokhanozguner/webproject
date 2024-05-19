@@ -39,12 +39,12 @@ body{
   transition: ease 0.5s;
  }
  .actived{
-   color: orangered;
+   color: gold;
    font-size: 1.005rem;
    font-weight: bold;
  }
  .nav-link:hover{
-   color: orangered;
+   color: gold;
    font-size: 1.005rem;
    font-weight: bold;
  }
@@ -75,3 +75,10 @@ body{
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.footer{
+  height: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 0rem;
+}
+
